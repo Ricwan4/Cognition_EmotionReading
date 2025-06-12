@@ -27,7 +27,7 @@ ___
 ## How to use
 * To start replicate the figures, you should go to the corresponding file folder, and run the python notebook / Jamovi spreadsheet / Matlab Code
 
-* To replicate the HMM model, go to [HMM_model](HMM_model/), and run [Model_fitting.m](HMM_model/Model_fitting.m). Then, you can run [Analysis.m](HMM_model/Analysis.m) to extract HMM metric.
+* To replicate the HMM model, go to [HMM_model](HMM_model/), and run [Model_fitting.m](HMM_model/Model_fitting.m).
 ___
 
 For bug reports, please contact [Eric Wang](mailto:eric.wang2004nz@link.cuhk.edu.hk)
