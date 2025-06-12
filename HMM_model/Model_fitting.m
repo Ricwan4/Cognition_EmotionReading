@@ -121,17 +121,6 @@ LS_hmm(~masklocal_Sad) = {[]};
 
 new_hmm = [GH_hmm,GS_hmm,LH_hmm,LS_hmm];
 
-GH_data = alldataC;
-GS_data = alldataC;
-LH_data = alldataC;
-LS_data = alldataC;
-
-GH_data(~maskGlobal_Happy) = {[]};
-GS_data(~maskGlobal_Sad) = {[]};
-LH_data(~masklocal_Happy) = {[]};
-LS_data(~masklocal_Sad) = {[]};
-
-new_data = [GH_data,GS_data,LH_data,LS_data];
 disp('====================== Co-clustering Settings Complete ======================')
 
 clear GH_data GS_data LH_data LS_data GH_hmm GS_hmm LH_hmm LS_hmm maskGlobal_Happy maskGlobal_Sad masklocal_Happy masklocal_Sad
@@ -145,4 +134,4 @@ disp('====================== Co-clustering Complete ======================')
 totalTime = toc(tStart);
 fprintf('Total running time: %.2f seconds\n', totalTime);
 
-save("HMM_output/Trained_Model.mat", 'StimuliNamesC','cogroup_hmms', 'new_data');
+save("HMM_output/Trained_Model.mat", 'StimuliNamesC','cogroup_hmms');
