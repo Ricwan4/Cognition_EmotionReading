@@ -9,7 +9,6 @@ emhmm_toggle_color(1);
 
 g = 26;
 vhem_plot(cogroup_hmms{g},StimuliNamesC{g},'c',[],{'Global','Local'})
-vhem_plot_fixations(new_data(g,:), cogroup_hmms{g}, StimuliNamesC{g}, 'g', 1);
 
 % heatmap - continued at heatmap.ipynb
 
@@ -17,6 +16,5 @@ vhem_plot_fixations(new_data(g,:), cogroup_hmms{g}, StimuliNamesC{g}, 'g', 1);
 
 g =50;
 vhem_plot(cogroup_hmms{g},StimuliNamesC{g},'c',[],{'Global','Local'})
-vhem_plot_fixations(new_data(g,:), cogroup_hmms{g}, StimuliNamesC{g}, 'g', 1);
 
 % heatmap - continued at heatmap.ipynb
